@@ -1,0 +1,60 @@
+
+#menu{
+    text-align: center;
+}
+#jumbo{
+    text-align: center;
+    color:white;
+    margin-bottom: 0px;
+}
+.big-banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav.navbar.navbar-expand-md.navbar-dark.bg-transparent{
+    position: absolute;
+}
+
+#resume{
+    background-color: rgb(80, 77, 77);
+    margin-right: auto;
+}
+#resume2::after{
+    background: cyan;
+    content:"";
+    display: block;
+    width: 90px;
+    height:3px;
+    
+}
+
+#resume3::after{
+    background: cyan;
+    content:"";
+    display: block;
+    width: 50px;
+    height:3px;     
+}
+#quote{
+    background-image:url(images/quote.jpg);
+    background-size: cover;
+}
+.form-control{
+    border-radius: 0px;
+}
+
+
+  html,body{
+      width: 100%;  
+      overflow-x: hidden;
+  }
+  @media(max-width:765px){
+      .img{
+margin: 30px;
+      }
+  }
+    .collapse .navbar-nav  .nav-item a:hover{
+        color: cyan;
+    }
+   
